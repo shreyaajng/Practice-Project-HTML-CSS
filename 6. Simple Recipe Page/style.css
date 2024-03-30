@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 20px;
+    gap: 15px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    color: #2e2d2b;
+}
+
+p, ul li, ol li{
+    color: rgb(91, 90, 90);
+}
+
+.prep{
+    background-color: #fff7fc;
+    padding: 20px;
+}
+
+.prep h4{
+    color: #5b263d;
+    margin-bottom: 7px;
+}
+
+.prep ul li{
+    margin-bottom: 7px;
+}
+
+.prep ul{
+    margin-left: 20px;
+}
+
+h3{
+    color: #643d2c;
+}
+
+.ing-list ul li{
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.inst-list ol li{
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.divider{
+    border: 0.5px solid #cecece;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.item{
+    padding-right: 90px;
+    color: #8c543c;
+    font-weight: bold;
+}
+
+.item1, .item3, .item5, .item7{
+    padding-left: 30px;
+    color: rgb(91, 90, 90);
+}
+
+.bold{
+    font-weight: bold;
+}
